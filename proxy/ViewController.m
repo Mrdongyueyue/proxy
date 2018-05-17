@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "YYTextView.h"
 
-@interface ViewController ()
+@interface ViewController ()<UITextViewDelegate>
+@property (weak, nonatomic) IBOutlet YYTextView *textView;
 
 @end
 
@@ -16,14 +18,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    _textView.layer.borderWidth = 1;
+    _textView.layer.borderColor = [UIColor colorWithRed:0.8 green:0 blue:0 alpha:0.5].CGColor;
+    [_textView setProxy];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)textViewDidChange:(UITextView *)textView {
+    NSLog(@"ViewController -- textViewDidChange");
 }
 
+- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text {
+
+    NSLog(@"ViewController -- %@", text);
+    return YES;
+}
+
+- (void)dealloc {
+    NSLog(@"ViewController - dealloc");
+}
 
 @end

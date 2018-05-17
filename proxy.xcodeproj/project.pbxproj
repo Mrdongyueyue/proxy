@@ -13,6 +13,9 @@
 		3C1D298720ADAE2400BAE43E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1D298620ADAE2400BAE43E /* Assets.xcassets */; };
 		3C1D298A20ADAE2400BAE43E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1D298820ADAE2400BAE43E /* LaunchScreen.storyboard */; };
 		3C1D298D20ADAE2400BAE43E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1D298C20ADAE2400BAE43E /* main.m */; };
+		3C1D299520ADAE3D00BAE43E /* YYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1D299420ADAE3D00BAE43E /* YYTextView.m */; };
+		3C1D299820ADC8F600BAE43E /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1D299720ADC8F600BAE43E /* ViewController2.m */; };
+		3C1D299B20ADC93100BAE43E /* YYTextViewDelegateHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1D299A20ADC93100BAE43E /* YYTextViewDelegateHandle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		3C1D298920ADAE2400BAE43E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C1D298B20ADAE2400BAE43E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C1D298C20ADAE2400BAE43E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C1D299320ADAE3D00BAE43E /* YYTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYTextView.h; sourceTree = "<group>"; };
+		3C1D299420ADAE3D00BAE43E /* YYTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYTextView.m; sourceTree = "<group>"; };
+		3C1D299620ADC8F600BAE43E /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		3C1D299720ADC8F600BAE43E /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		3C1D299920ADC93100BAE43E /* YYTextViewDelegateHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYTextViewDelegateHandle.h; sourceTree = "<group>"; };
+		3C1D299A20ADC93100BAE43E /* YYTextViewDelegateHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYTextViewDelegateHandle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				3C1D297E20ADAE2200BAE43E /* AppDelegate.m */,
 				3C1D298020ADAE2200BAE43E /* ViewController.h */,
 				3C1D298120ADAE2200BAE43E /* ViewController.m */,
+				3C1D299620ADC8F600BAE43E /* ViewController2.h */,
+				3C1D299720ADC8F600BAE43E /* ViewController2.m */,
+				3C1D299920ADC93100BAE43E /* YYTextViewDelegateHandle.h */,
+				3C1D299A20ADC93100BAE43E /* YYTextViewDelegateHandle.m */,
+				3C1D299320ADAE3D00BAE43E /* YYTextView.h */,
+				3C1D299420ADAE3D00BAE43E /* YYTextView.m */,
 				3C1D298320ADAE2200BAE43E /* Main.storyboard */,
 				3C1D298620ADAE2400BAE43E /* Assets.xcassets */,
 				3C1D298820ADAE2400BAE43E /* LaunchScreen.storyboard */,
@@ -141,7 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C1D299B20ADC93100BAE43E /* YYTextViewDelegateHandle.m in Sources */,
 				3C1D298220ADAE2200BAE43E /* ViewController.m in Sources */,
+				3C1D299520ADAE3D00BAE43E /* YYTextView.m in Sources */,
+				3C1D299820ADC8F600BAE43E /* ViewController2.m in Sources */,
 				3C1D298D20ADAE2400BAE43E /* main.m in Sources */,
 				3C1D297F20ADAE2200BAE43E /* AppDelegate.m in Sources */,
 			);
